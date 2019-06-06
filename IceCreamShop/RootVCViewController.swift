@@ -20,7 +20,8 @@ class RootVCViewController: UIViewController {
   @IBAction func buttonAction(_ sender: Any) {
     print("buttonAction")
     
-    IceCreamManager.show(in: self)
+    //IceCreamManager.show(in: self)
+    IceCreamManager.showReactive(in: self)
   }
   
 }

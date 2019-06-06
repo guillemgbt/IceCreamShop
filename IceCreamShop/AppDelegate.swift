@@ -49,9 +49,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let rootVC = RootVCViewController()
     return UINavigationController(rootViewController: rootVC)
 
-//    let bundle = Bundle(for: PickFlavorViewController.self)
-//    let storyboard = UIStoryboard(name: "Main", bundle: bundle)
-//    return storyboard.instantiateInitialViewController() ?? UIViewController()
   }
 
 }
