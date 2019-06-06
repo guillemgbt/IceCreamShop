@@ -38,13 +38,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
     
     window = UIWindow(frame: UIScreen.main.bounds)
-    window?.rootViewController = createRootViewController()
+    window?.rootViewController = IceCreamManager.show()
     window?.makeKeyAndVisible()
     
     return true
   }
   
   func createRootViewController() -> UIViewController {
+
     let bundle = Bundle(for: PickFlavorViewController.self)
     let storyboard = UIStoryboard(name: "Main", bundle: bundle)
     return storyboard.instantiateInitialViewController() ?? UIViewController()
