@@ -11,6 +11,8 @@
 		95B351EA20DA6224008C9DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B351E920DA6224008C9DEB /* AppDelegate.swift */; };
 		95B351EC20DA622B008C9DEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95B351EB20DA622B008C9DEB /* LaunchScreen.xib */; };
 		C990FAD422A91F0800A9953F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C990FAD322A91F0800A9953F /* Images.xcassets */; };
+		C9A4CF8D22A9410E00DF3804 /* RootVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4CF8B22A9410E00DF3804 /* RootVCViewController.swift */; };
+		C9A4CF8E22A9410E00DF3804 /* RootVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A4CF8C22A9410E00DF3804 /* RootVCViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		95B351EB20DA622B008C9DEB /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		C919A16522A9303B005FDDFB /* RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C990FAD322A91F0800A9953F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9A4CF8B22A9410E00DF3804 /* RootVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVCViewController.swift; sourceTree = "<group>"; };
+		C9A4CF8C22A9410E00DF3804 /* RootVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootVCViewController.xib; sourceTree = "<group>"; };
 		D9E69C63C94D0CE496526C74 /* Pods-IceCreamShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				95B351E920DA6224008C9DEB /* AppDelegate.swift */,
+				C9A4CF8B22A9410E00DF3804 /* RootVCViewController.swift */,
+				C9A4CF8C22A9410E00DF3804 /* RootVCViewController.xib */,
 				95B351EB20DA622B008C9DEB /* LaunchScreen.xib */,
 				95B3522F20DA7245008C9DEB /* Resources */,
 				42801B521A881DF600DEB026 /* Supporting Files */,
@@ -173,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A4CF8E22A9410E00DF3804 /* RootVCViewController.xib in Resources */,
 				C990FAD422A91F0800A9953F /* Images.xcassets in Resources */,
 				95B351EC20DA622B008C9DEB /* LaunchScreen.xib in Resources */,
 			);
@@ -229,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95B351EA20DA6224008C9DEB /* AppDelegate.swift in Sources */,
+				C9A4CF8D22A9410E00DF3804 /* RootVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
